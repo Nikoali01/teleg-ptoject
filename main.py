@@ -107,7 +107,7 @@ def cont(message):
 
     elif message.text == 'Статистика ' + emoji.emojize(":bar_chart:"):
         global full_amount
-        bot.send_message(message.chat.id, f"Всего потрачено {full_amount} с последнего сброса",
+        bot.send_message(message.chat.id, f"Всего потрачено {full_amount} руб. с последнего сброса",
                          reply_markup=FromStats())
 
     elif message.text == "Вернуться в главное меню":
