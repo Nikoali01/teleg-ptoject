@@ -1,5 +1,6 @@
 import dp as dp
 import telebot
+import emoji
 from aiogram.utils import emoji
 from telebot import types
 from aiogram.dispatcher.filters import *

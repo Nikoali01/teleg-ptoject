@@ -1,4 +1,5 @@
-dp==1.0
 aiogram==2.12.1
 schedule==1.0.0
+dp==1.0
+emoji==1.2.0
 pyTelegramBotAPI==3.7.7
