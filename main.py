@@ -111,7 +111,7 @@ def cont(message):
         bot.send_message(message.chat.id, f"Всего потрачено {full_amount} руб. с последнего сброса",
                          reply_markup=FromStats())
 
-    elif message.text == "Вернуться в главное меню":
+    elif message.text == 'Вернуться в главное меню ' + emoji.emojize(":leftwards_arrow_with_hook:"):
         bot.send_message(message.chat.id, "Выберите нужный вид транспорта:", reply_markup=TypeOfTransport())
     elif message.text == 'Сбросить статистику ' + emoji.emojize(":repeat:"):
         bot.send_message(message.chat.id, "Вы успешно сбросили статистику" + emoji.emojize(":white_check_mark:"),
